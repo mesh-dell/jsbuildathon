@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #666;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.tent, .backpack, .clothing-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tent img, .backpack img, .clothing-item img {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #666;
+}
+
+p {
+    font-size: 0.9em;
+    color: #666;
+}
