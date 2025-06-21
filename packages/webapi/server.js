@@ -17,8 +17,6 @@ app.use(cors());
 app.use(express.json());
 
 const sessionMemories = {};
-const endpoint = process.env["AZURE_OPENAI_ENDPOINT"];
-const apiKey = process.env["AZURE_OPENAI_API_KEY"];
 const apiVersion = "2025-01-01-preview";
 const deployment = "o3-mini"; // Make sure this matches your deployment name
 
